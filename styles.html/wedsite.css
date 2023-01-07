@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Banner */
+.banner-container {
+    padding: 45px;
+    background-image: url(../images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+
+}
+
+.banner-container h1 {
+    position: absolute;
+    width: 508px;
+    height: 228px;
+    left: 862px;
+    top: 216px;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+
+.banner-container p {
+    color: #444343;
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+
+}
+
+.btn-primary {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+
+    background: #F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+}
+
+/* Failure of previous year */
+.failure {
+    padding: 30px;
+    display: flex;
+    gap: 90px;
+}
+
+.person-img {
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+
+.previos-failure {
+    text-align: justify;
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 862px;
+    top: 1178px
+}
+
+.previos-failure h1 {
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1178px;
+    color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.previos-failure p {
+    margin-bottom: 20px;
+}
+/* My plans */
+.my-plan h1 {
+    position: absolute;
+    width: 179px;
+    height: 10px;
+    left: 711px;
+    top: 1792.3px;
+    font-weight: 700;
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.plan {
+    padding: 200px;
+    gap: 100px;
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 185.3px;
+
+    top: 1700px;
+    align-items: center;
+
+}
+
+.plan h4 {
+    width: 270px;
+    font-weight: 700;
+    font-size: 30px;
+    text-size-adjust: 50px;
+    color: #151414;
+}
+
+.plan h5 {
+    text-align: left;
+    width: 214px;
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Image with linear gradient */
+
+.image {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    background-image: url('../images/gradient01.JPEG');
+
+}
+
+.text {
+    padding: 10px;
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    top: 80px;
+    left: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 20px;
+
+}
+
+.button {
+    padding: 10px;
+    position: absolute;
+    width: 140px;
+    height: 54px;
+    left: 40px;
+    top: 205px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+}
+
+/* Future */
+.future {
+
+    background-image: url('../images/banner/darkbg.jpg');
+    position: absolute;
+    width: 1685px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+}
+
+.future p {
+    color: #FFFFFF;
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 200.26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.future h3 {
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 1046px;
+    top: 150.26px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.form input {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    background: #151414;
+    color: #F3F3F3;
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 1046px;
+    top: 180.26px;
+}
+
+.future button {
+    position: absolute;
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    left: 1082.02px;
+    top: 310.26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #F15B22;
+}
+
+.contact {
+    color: #FFFFFF;
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 130.26px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.info {
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2851.26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
